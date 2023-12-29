@@ -25,7 +25,7 @@ jobs:
         run: flutter config --enable-web
 
       - name: Upgrade flutter packages
-        run: flutter pub upgrade --major-versions
+        run: flutter packages upgrade
 
       - name: 📦 Get packages
         run: flutter pub get
