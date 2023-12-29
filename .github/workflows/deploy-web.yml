@@ -24,6 +24,9 @@ jobs:
       - name: 🌍 Enable Web
         run: flutter config --enable-web
 
+      - name: Upgrade flutter packages
+        run: flutter pub upgrade --major-versions
+
       - name: 📦 Get packages
         run: flutter pub get
 
