@@ -275,7 +275,7 @@ class DashboardScreen extends State<DashBoard> {
   }
 
   Widget _buildItemCard(
-      {default String title,
+      {required String title,
         String total,
         String used,
         int totalNum,
