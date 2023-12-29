@@ -29,7 +29,7 @@ jobs:
         run: flutter pub get
     
       - name: Update packages
-        run: flutter pub upgrade --magor-version
+        run: flutter pub upgrade --major-version
 
       - name: 🏭 Build Web Application
         run: flutter build web --release
