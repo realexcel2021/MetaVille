@@ -19,6 +19,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         name: Install flutter
         with:
+          flutter-version: '2.10.5'
           channel: "stable"
 
       - name: 🌍 Enable Web
