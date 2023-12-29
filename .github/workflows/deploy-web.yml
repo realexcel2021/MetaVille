@@ -27,6 +27,9 @@ jobs:
 
       - name: 📦 Get packages
         run: flutter pub get
+    
+      - name: Update packages
+        run: flutter pub upgrade --magor-version
 
       - name: 🏭 Build Web Application
         run: flutter build web --release
