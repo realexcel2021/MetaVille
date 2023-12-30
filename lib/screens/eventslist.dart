@@ -103,7 +103,7 @@ class EventsTimelineScreen extends State<EventsTimeline>{
     );
   }
 
-  Widget _buildEventCard({ String from, String to, String Title,  String location}){
+  Widget _buildEventCard({ required String from, required String to, required String Title,  required String location}){
     return Container(
       padding: const EdgeInsets.only(left: 16, right: 16, top: 16),
       child: Row(

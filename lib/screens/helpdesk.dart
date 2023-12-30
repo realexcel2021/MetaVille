@@ -5,7 +5,7 @@ import 'constants2.dart';
 import 'profile_list_item.dart';
 
 class HelpDesk extends StatefulWidget {
-  HelpDesk({Key key, this.title}) : super(key: key);
+  HelpDesk({required Key key, required this.title}) : super(key: key);
   final String title;
 
   @override
@@ -66,7 +66,7 @@ class _ProfilePageState extends State<HelpDesk> {
 class AppBarButton extends StatelessWidget {
   final IconData icon;
 
-  const AppBarButton({this.icon});
+  const AppBarButton({required this.icon});
 
   @override
   Widget build(BuildContext context) {
@@ -149,7 +149,7 @@ class SocialIcon extends StatelessWidget {
   final IconData iconData;
   final Function onPressed;
 
-  SocialIcon({this.color, this.iconData, this.onPressed});
+  SocialIcon({required this.color, required this.iconData, required this.onPressed});
 
   @override
   Widget build(BuildContext context) {

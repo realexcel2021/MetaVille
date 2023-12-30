@@ -276,12 +276,12 @@ class DashboardScreen extends State<DashBoard> {
 
   Widget _buildItemCard(
       {required String title,
-        String total,
-        String used,
-        int totalNum,
-        int usedNum,
-        Color color,
-        IconData icon,
+        required String total,
+        required String used,
+        required int totalNum,
+        required int usedNum,
+        required Color color,
+        required IconData icon,
         GestureTapCallback onTap}) {
     return Card(
       elevation: 2,

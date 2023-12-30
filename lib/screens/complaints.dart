@@ -307,13 +307,13 @@ class ComplaintsScreen extends State<Complaints> {
   }
 
   Widget _buildUnresolvedCard(
-      {String title,
-      String subject,
-      String text,
-      List<String> imageList,
-      String me,
-      String meeting,
-      String meeting2}) {
+      {required String title,
+      required String subject,
+      required String text,
+      required List<String> imageList,
+      required String me,
+      required String meeting,
+      required String meeting2}) {
     return Card(
         elevation: 2,
         shape: RoundedRectangleBorder(
