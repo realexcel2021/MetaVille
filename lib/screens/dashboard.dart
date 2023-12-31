@@ -350,7 +350,7 @@ class DashboardScreen extends State<DashBoard> {
   }
 
   Widget _buildEventsCard(
-      {String title, String subject, String time, List<String> imageList, int count}) {
+      {required String title, required String subject, required String time, required List<String> imageList, required int count}) {
     return Card(
       elevation: 2,
       shape: RoundedRectangleBorder(

@@ -8,9 +8,9 @@ class ProfileListItem extends StatelessWidget {
   final bool hasNavigation;
 
   const ProfileListItem({
-    Key key,
-    this.icon,
-    this.text,
+    required Key key,
+    required this.icon,
+    required this.text,
     this.hasNavigation = true,
   }) : super(key: key);
 

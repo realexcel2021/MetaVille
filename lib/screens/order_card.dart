@@ -8,7 +8,7 @@ import 'helper.dart';
 class OrderCard extends StatelessWidget {
   final Order order;
 
-  OrderCard({this.order});
+  OrderCard({required this.order});
 
   // For formatting date
   final DateFormat formatter = DateFormat("yyyy MM dd");
